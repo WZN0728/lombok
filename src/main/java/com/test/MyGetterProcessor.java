@@ -13,9 +13,9 @@ import java.util.Set;
  * @author wuting
  * @date 2020/06/05
  * com.test
- * -- MyGetter.java4
- * -- MyGetterProcessor.java5
- * -- TestAno.java
+ * -- MyGetter.java1
+ * -- MyGetterProcessor.java2
+ * -- TestAno.java3
  * -- GeneratedClass
  */
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
