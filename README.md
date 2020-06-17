@@ -1,3 +1,8 @@
+运行：我们在demo汇总编译期就能生成文件了，在编译时生成文件，此时不要着急直接进行javac编译，MyGetter类是注解类没错，而MyGetterProcessor是注解类的处理器，那么我们在编译TestAnoJava文件的时候就会触发处理器。因此这两个类是无法一起编译的。
+javac com/test/MyGetter*
+javac -processor com.test.MyGetterProcessor com/test/TestAnno.java
+
+
 lombok原理
  1.注解处理工具apt
   注解处理工具apt(Annotation Processing Tool)，这是Sun为了帮助注解的处理过程而提供的工具，apt被设计为操作Java源文件，而不是编译后的类。
